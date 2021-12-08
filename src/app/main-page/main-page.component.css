@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;300&display=swap');
+
+
+.mainPage{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainInformation{
+    width: 85%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-left: 20vw;
+}
+
+.name{
+    font-family: 'Archivo', sans-serif;
+    font-size: 4rem;
+    padding-bottom: 0px;
+}
+
+.job{
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 1px;
+}
+
+.menuOptions{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.option{
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    color: #7C4B48;
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.option:hover{
+    cursor: pointer;
+    margin-top: -25px;
+
+}
+
+.buttonList{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.optionButton{
+    margin-top: 10px;
+    width: 85px;
+    height: 25px;
+    background-color: #36D4EA;
+    border-radius: 25px;
+}
+
+.buttonYellow{
+    background-color: #EAA236;
+}
+
+.buttonGreen{
+    background-color: #85EA36;
+}
+
+.buttonRed{
+    background-color: #EA3661;
+}
+
+.detailRetangle{
+    position: fixed;
+    width: 600px;
+    height: 400px;
+    bottom: -150px;
+    left: -200px;
+    border-radius: 45%;
+    background-color: #36D4EA;
+}
+
+
+.detailRetangle2{
+    position: fixed;
+    width: 700px;
+    height: 400px;
+    bottom: -300px;
+    left: -50px;
+    border-radius: 35%;
+    background-color: #36D4EA;
+}
+
+
+.detailRetangle3{
+    position: fixed;
+    width: 700px;
+    height: 400px;
+    bottom: -25px;
+    left: -640px;
+    border-radius: 25%;
+    background-color: #36D4EA;
+}
+
+.tallRetangle{
+    position: fixed;
+    width: 50px;
+    height: 400px;
+    bottom: 0px;
+    left: 200px;
+    border-radius: 40px;
+    background-color: #36D4EA;
+}
+
+.tallRetangle2{
+    position: fixed;
+    width: 50px;
+    height: 400px;
+    bottom: -80px;
+    left: 100px;
+    border-radius: 40px;
+    background-color: #36D4EA;
+}
+
+.tallRetangle3{
+    position: fixed;
+    width: 50px;
+    height: 300px;
+    bottom: 0px;
+    left: 400px;
+    border-radius: 40px;
+    background-color: #36D4EA;
+}
+
+.mainColor{
+    height: 100vh;
+    width: 40vw;
+    background-color: #FF4E4E;
+}
+
+img{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
