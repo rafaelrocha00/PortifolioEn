@@ -1,0 +1,61 @@
+.sideMenu{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    list-style: none;
+
+}
+
+.first{
+    margin-top: 150px;
+}
+
+.sideMenu ol{
+    display: flex;
+    height: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sideMenu .text {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    margin: auto;
+}
+
+.blue{
+    background-color: #366f77;
+}
+
+.blue:hover{
+    background-color: #36D4EA;
+}
+
+.yellow{
+    background-color: #9b753b;
+}
+
+.yellow:hover{
+    background-color: #EAA236;
+}
+
+.green{
+    background-color: #75a551;
+}
+
+.green:hover{
+    background-color: #85EA36;
+
+}
+
+.red{
+    background-color: #8f3c50;
+}
+
+.red:hover{
+    background-color: #EA3661;
+}

@@ -3,11 +3,11 @@
         <div class="name">Rafael Rocha</div>
         <div class="job">Game Dev</div>
         <div class="menuOptions">
-            <div class="option">
+            <a routerLink="games" routerLinkActive="activeLink" class="option" (mouseenter) ="changeCurrentImage('1')" (mouseleave)="stopShowingImage()">
                 <p>Games</p> 
                 <div class="optionButton"></div>
-            </div>
-            <div class="option">Arte
+            </a>
+            <div class="option" (mouseenter) ="changeCurrentImage('2')" (mouseleave)="stopShowingImage()">Arte
                 <div class="optionButton buttonYellow"></div>
             </div>
             <div class="option">Docs
@@ -24,5 +24,9 @@
     <div class="detailRetangle3"></div>
     <div class="tallRetangle"></div>
     <div class="tallRetangle2"></div>
-    <div class="mainColor"></div>
+    <div class="mainColor">
+        <img src='assets/MainImages/{{currentImage}}.png' alt="" *ngIf="showingImage">
+    </div>
+
+    <a routerLink="games" routerLinkActive="activeLink" >asdasd</a>
 </div>

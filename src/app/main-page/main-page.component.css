@@ -137,10 +137,6 @@
     height: 100vh;
     width: 40vw;
     background-color: #FF4E4E;
+    overflow: hidden;
 }
 
-img{
-    position: absolute;
-    width: 500px;
-    height: 500px;
-}
