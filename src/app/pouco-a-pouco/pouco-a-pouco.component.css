@@ -1,0 +1,126 @@
+.mainInformation{
+    width: 90vw;
+    height: 100%;
+    margin-left: 150px;
+}
+
+.mainInformation .imgContainer{
+    display: block;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.mainInformation img{
+    width: 1900px;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    font-size: 2.8rem;
+    color: rgb(235, 235, 235);
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.marg-lateral{
+    margin-left: 25px;
+}
+
+.informacaoSecundaria{
+    margin-top: 25px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1rem;
+    background-color: #CDE4EB;
+    color: rgb(58, 59, 61);
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+.informacaoSecundaria i {
+    width: 20px;
+}
+
+.informacaoSecundaria b {
+    margin-left: 10px;
+}
+
+section{
+    margin-top: 30px;
+    display: flex;
+}
+
+.left{
+    padding-right: 15px;
+}
+
+.topSpace{
+    margin-top: 400px;
+}
+
+video{
+    height: 440px;
+    margin-right: 10px;
+}
+
+
+p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.3rem;
+    margin: 10px;
+    text-align: justify;
+    margin-top: 0;
+}
+
+
+.exampleImgContainer img{
+    width: 900px;
+}
+
+.mainButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.mainButtons a{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 12px 0px;
+    margin: 20px;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainButtons a i{
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+
+.buttonblue{
+    background-color: rgb(26, 111, 196);
+}
+
+.buttonblue:hover{
+    background-color: dodgerblue;
+}
+
+.orange{
+    background-color: rgb(189, 106, 46);
+}
+
+.orange:hover{
+    background-color: chocolate;
+}

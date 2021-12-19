@@ -7,6 +7,11 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { MainGamesPageComponent } from './main-games-page/main-games-page.component';
 import { DefensorDaHortaPaginaComponent } from './defensor-da-horta-pagina/defensor-da-horta-pagina.component';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { PoucoAPoucoComponent } from './pouco-a-pouco/pouco-a-pouco.component';
+import { NenhumAdeusParaNosComponent } from './nenhum-adeus-para-nos/nenhum-adeus-para-nos.component';
+import { KappasQuestPaginaComponent } from './kappas-quest-pagina/kappas-quest-pagina.component';
+import { ArtePaginaComponent } from './arte-pagina/arte-pagina.component';
+import { SobrePaginaComponent } from './sobre-pagina/sobre-pagina.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
     MainPageComponent,
     MainGamesPageComponent,
     DefensorDaHortaPaginaComponent,
-    MenuLateralComponent
+    MenuLateralComponent,
+    PoucoAPoucoComponent,
+    NenhumAdeusParaNosComponent,
+    KappasQuestPaginaComponent,
+    ArtePaginaComponent,
+    SobrePaginaComponent
   ],
   imports: [
     BrowserModule,

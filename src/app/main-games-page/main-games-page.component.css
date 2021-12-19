@@ -2,8 +2,9 @@
 
 .jogosGrid{
     width: 90vw;
-    height: 100%;
     margin-left: 150px;
+    display: block;
+    overflow: auto;
 }
 
 .jogo{

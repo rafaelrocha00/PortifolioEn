@@ -13,11 +13,13 @@
     margin-top: 150px;
 }
 
-.sideMenu ol{
+.sideMenu a{
     display: flex;
     height: 150px;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
+
 }
 
 .sideMenu .text {
