@@ -27,7 +27,6 @@ a{
     transform: scale(1.05);
     width: 1900px;
     filter: brightness(70%)
-
 }
 
 .jogosGrid img:hover{
@@ -38,6 +37,7 @@ a{
 
 .jogosGrid p{
     position: absolute;
+    width: 100%;
     font-family: 'Archivo', sans-serif;
     text-align: center;
     font-size: 2.5rem;
@@ -46,5 +46,17 @@ a{
     left: 50%;
     transform: translate(-50%, 100%);
     pointer-events: none;
+}
+
+@media screen and (max-width:600px){
+    .jogosGrid{
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 80px;
+    }
+
+    .jogosGrid img{
+       margin-left: -800px;
+    }
 }
 

@@ -29,6 +29,30 @@
     margin: auto;
 }
 
+@media screen and (max-width:600px){
+
+    .sideMenu{
+        width: 100%;
+        height: 50px;
+    }
+
+    .first{
+        margin-top: 0px;
+    }
+
+    .sideMenu {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        background-color: red;
+    }
+
+    .sideMenu a {
+        height: 80px;
+        width: 25%;
+    }
+}
+
 .blue{
     background-color: #366f77;
 }
