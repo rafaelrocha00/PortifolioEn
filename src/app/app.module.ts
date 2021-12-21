@@ -12,6 +12,7 @@ import { NenhumAdeusParaNosComponent } from './nenhum-adeus-para-nos/nenhum-adeu
 import { KappasQuestPaginaComponent } from './kappas-quest-pagina/kappas-quest-pagina.component';
 import { ArtePaginaComponent } from './arte-pagina/arte-pagina.component';
 import { SobrePaginaComponent } from './sobre-pagina/sobre-pagina.component';
+import { DocsComponent } from './docs/docs.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SobrePaginaComponent } from './sobre-pagina/sobre-pagina.component';
     NenhumAdeusParaNosComponent,
     KappasQuestPaginaComponent,
     ArtePaginaComponent,
-    SobrePaginaComponent
+    SobrePaginaComponent,
+    DocsComponent
   ],
   imports: [
     BrowserModule,

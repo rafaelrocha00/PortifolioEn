@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ArtePaginaComponent } from './arte-pagina/arte-pagina.component';
 import { DefensorDaHortaPaginaComponent } from './defensor-da-horta-pagina/defensor-da-horta-pagina.component';
+import { DocsComponent } from './docs/docs.component';
 import { KappasQuestPaginaComponent } from './kappas-quest-pagina/kappas-quest-pagina.component';
 import { MainGamesPageComponent } from './main-games-page/main-games-page.component';
 import { MainPageComponent } from './main-page/main-page.component';
@@ -38,6 +39,10 @@ const routes: Routes = [
   {
     path: 'sobre',
     component: SobrePaginaComponent
+  },
+  {
+    path: 'docs',
+    component: DocsComponent
   },
   {
     path: '',

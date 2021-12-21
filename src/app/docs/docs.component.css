@@ -1,0 +1,32 @@
+.content{
+    width: 90vw;
+    margin-left: 150px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.pdfs{
+    margin-top: 50px;
+}
+
+iframe{
+    width: 80vw;
+}
+
+@media screen and (max-width:600px){
+
+    .content{
+        margin-left: 20px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    iframe{
+        width: 100vw;
+    }
+
+    .pdfs{
+        margin-top: 0px;
+    }
+}
