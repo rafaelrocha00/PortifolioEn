@@ -10,12 +10,12 @@
 }
 
 .first{
-    margin-top: 150px;
+    margin-top: 18vh;
 }
 
 .sideMenu a{
     display: flex;
-    height: 150px;
+    height: 16%;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
